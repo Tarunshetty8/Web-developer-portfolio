@@ -1,0 +1,149 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0d0d0d;
+  }
+  
+  header .logo {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  header nav a {
+    margin-left: 20px;
+    color: #f9d342;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .home h1 {
+    font-size: 40px;
+    color: #f9d342;
+    margin-top: 10px;
+  }
+  
+  .home-image {
+    background: url('premium_photo-1744231749698-f36ccdb0067e.avif') no-repeat center/cover;
+    height: 300px;
+    margin: 20px 0;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .about-text, .about-dummy-text {
+    width: 45%;
+    text-align: left;
+    font-size: 16px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .about-text strong {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #00c6ff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 10px;
+    color: #f9d342;
+  }
+  
+  .services ul {
+    list-style: none;
+    margin: 30px 0;
+  }
+  
+  .services li {
+    margin: 10px 0;
+    font-size: 22px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .contact input, .contact textarea {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    background: #1e1e1e;
+    border: 1px solid #333;
+    color: #fff;
+  }
+  
+  .contact textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #0d0d0d;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  footer nav a {
+    margin: 0 10px;
+    color: #f9d342;
+    text-decoration: none;
+  }
+  
+  footer .socials a {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
